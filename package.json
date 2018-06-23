@@ -1,0 +1,12 @@
+{
+  "name": "kodilla_learning-git-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaroslaw-bagnicki/kodilla_learning-git-2.git",
+  "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
+  "license": "mit",
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
