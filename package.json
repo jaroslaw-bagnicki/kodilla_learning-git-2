@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "node-sass scss/main.scss style.css"
+    "compile-sass": "node-sass scss/main.scss css/style.css"
   },
   "repository": "git@github.com:jaroslaw-bagnicki/kodilla_learning-git-2.git",
   "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
