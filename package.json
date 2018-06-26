@@ -10,6 +10,8 @@
   "license": "mit",
   "private": true,
   "devDependencies": {
-    "node-sass": "^4.9.0"
+    "autoprefixer-cli": "^1.0.0",
+    "node-sass": "^4.9.0",
+    "nu-html-checker": "^0.1.0"
   }
 }
