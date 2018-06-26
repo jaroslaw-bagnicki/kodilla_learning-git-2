@@ -1,0 +1,2 @@
+autoprefixer-cli -o css/css.prefixed.css css/style.css
+postcss css/style.css -u autoprefixer -o css/css.prefixed.css

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "compile-sass": "node-sass scss/main.scss css/style.css"
+    "compile-sass": "node-sass scss/main.scss css/style.css",
+    "prefix-css": "autoprefixer-cli -o css/css.prefixed.css css/style.css",
+    "postcss-prefix": "postcss css/style.css -u autoprefixer -o css/css.prefixed.css"
   },
   "repository": "git@github.com:jaroslaw-bagnicki/kodilla_learning-git-2.git",
   "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
@@ -12,6 +14,7 @@
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "node-sass": "^4.9.0",
-    "nu-html-checker": "^0.1.0"
+    "nu-html-checker": "^0.1.0",
+    "postcss-cli": "^5.0.1"
   }
 }
