@@ -5,7 +5,8 @@
   "scripts": {
     "compile-sass": "node-sass scss/main.scss css/style.css",
     "prefix-css": "autoprefixer-cli -o css/css.prefixed.css css/style.css",
-    "postcss-prefix": "postcss css/style.css -u autoprefixer -o css/css.prefixed.css"
+    "postcss-prefix": "postcss css/style.css -u autoprefixer -o css/css.prefixed.css",
+    "html-check": "nu-html-checker *.html"
   },
   "repository": "git@github.com:jaroslaw-bagnicki/kodilla_learning-git-2.git",
   "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
