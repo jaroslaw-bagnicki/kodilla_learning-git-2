@@ -6,9 +6,9 @@
     "compile-sass": "node-sass scss/main.scss css/style.css",
     "prefix-css": "autoprefixer-cli -o css/css.prefixed.css css/style.css",
     "postcss-prefix": "postcss css/style.css -u autoprefixer -o css/css.prefixed.css",
-    "html-check-1": "nu-html-checker *.html",
-    "html-check-2": "nu-html-checker test.html",
-    "html-check-3": "globstar -- nu-html-checker *.html"
+    "test": "npm run test:html",
+    "test:html": "globstar -- nu-html-checker *.html",
+    "watch:browsersync": "browser-sync start --server --files css/*.css index.html"
   },
   "repository": "git@github.com:jaroslaw-bagnicki/kodilla_learning-git-2.git",
   "author": "Jarosław Bagnicki <jarek@bagnicki.net>",
@@ -16,6 +16,7 @@
   "private": true,
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.5",
     "globstar": "^1.0.0",
     "node-sass": "^4.9.0",
     "nu-html-checker": "^0.1.0",
