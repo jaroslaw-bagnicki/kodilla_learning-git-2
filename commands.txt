@@ -1,3 +1,8 @@
 node_modules/.bin/autoprefixer-cli -o css/css.prefixed.css css/style.css
 node_modules/.bin/postcss css/style.css -u autoprefixer -o css/css.prefixed.css
 node_modules/.bin/nu-html-checker *.html
+
+
+**SCRIPTS**
+    "watch:sass": "node-sass --output-style expanded --source-map true scss/main.scss css/style.css --watch",
+    "watch:autoprefixer": "onchange --delay 100 css/style.css -- postcss css/style.css --use autoprefixer --output css/style.prefixed.css",
